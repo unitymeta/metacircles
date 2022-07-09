@@ -1,6 +1,7 @@
 ﻿<?php 
     require 'rb-mysql.php';
     R::setup( 'mysql:host=localhost;dbname=fintch','fintch', 'Muxa7515');
+    echo "Start";
 
 
     if(!R::testConnection()){
